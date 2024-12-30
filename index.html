@@ -18,6 +18,11 @@
         background-color: rgb(218, 176, 176);
         color: rgb(0, 0, 0);
       }
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
       .button {
         border: none;
         border-radius: 5px;
@@ -55,27 +60,38 @@
         <p>Good in solo work</p>
       </div>
       <footer>
-        <p>Created by Mr.Picule</p>
-        <div class="contacts">
-          <h3>Contacts</h3>
-          <a href="https://github.com/Vantana1995">
+        <div class="footer">
+          <p>Created by Mr.Picule</p>
+          <div class="contacts">
+            <h3>Contacts</h3>
             <button class="button">
-              <img
-                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                alt="GitHub"
-                style="width: 40px; height: 40px"
-              />
+              <a href="https://github.com/Vantana1995">
+                <img
+                  src="github-mark.svg"
+                  alt="GitHub"
+                  style="
+                    width: 40px;
+                    height: 40px;
+                    display: block;
+                    margin: auto;
+                  "
+              /></a>
             </button>
-          </a>
-          <a href="https://x.com/v_a_n_t_a_n_a">
             <button class="button">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg"
-                alt="X"
-                style="width: 40px; height: 40px"
-              />
+              <a href="https://x.com/v_a_n_t_a_n_a">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg"
+                  alt="X"
+                  style="
+                    width: 40px;
+                    height: 40px;
+                    display: block;
+                    margin: auto;
+                  "
+                />
+              </a>
             </button>
-          </a>
+          </div>
         </div>
       </footer>
     </div>
