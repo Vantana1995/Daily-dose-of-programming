@@ -4,15 +4,17 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <style>
-      background {
-        color: rgb(0, 255, 255);
-      }
       header {
         color: rgb(17, 71, 71);
       }
       .content {
-        display: inline-flex;
-        justify-content: space-around;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .content th,
+      .content td {
+        width: 50%;
       }
       .background {
         background-color: rgb(218, 176, 176);
@@ -34,24 +36,27 @@
   <body>
     <div class="background">
       <header><h1>About me</h1></header>
-      <div class="content">
-        <ul class="list">
-          <h3>My hobies</h3>
-          <li>Computer</li>
-          <li>Programing</li>
-          <li>Drawing</li>
-          <li>Music</li>
-        </ul>
-      </div>
-      <div class="content">
-        <ul class="list">
-          <h3>My skills</h3>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Solidity</li>
-        </ul>
-      </div>
+      <table class="content" border="1">
+        <tr>
+          <th>My hobbies</th>
+          <th>My skills</th>
+        </tr>
+        <tr>
+          <td>
+            <p>Programming</p>
+            <p>Drawing</p>
+            <p>Music</p>
+            <p>NFT</p>
+            <p>Blockchan technology</p>
+          </td>
+          <td>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Solidity</p>
+          </td>
+        </tr>
+      </table>
       <div class="characteristics">
         <h3>My characteristics</h3>
         <p>Hardworking</p>
