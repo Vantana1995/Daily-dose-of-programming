@@ -1,0 +1,46 @@
+.background {
+  background-color: hsl(0, 1%, 14%);
+  color: hsl(59, 66%, 29%);
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+  border-top: 4px solid #000000;
+  border-collapse: collapse;
+}
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-right: 2px solid #000000;
+  border-bottom: 3px solid #000000;
+}
+.table td {
+  padding: 2px;
+  border-right: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.table tr {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.imgBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.footer {
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+}
