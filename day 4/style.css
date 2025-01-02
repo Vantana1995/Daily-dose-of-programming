@@ -1,0 +1,83 @@
+.header {
+  text-align: center;
+  width: 100%;
+  background-color: #dacdcd;
+  padding: 10px;
+  border-bottom: 0px solid;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d1cdcd;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+.navigateMenu {
+  background-color: #dfdada;
+  border-radius: 10px;
+}
+.main {
+  margin: 20px 20px 0 20px;
+  background-color: aliceblue;
+  border-top: 10px #afadad;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-size: 30px;
+}
+.footer {
+  margin: 0 20px 20px 20px;
+  background-color: hsl(0, 17%, 83%);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 25px 25px;
+}
+
+.imgBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.card {
+  display: flex;
+  margin: 20px 20px 0 20px;
+  text-align: center;
+}
+.card-item {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: red;
+}
+a img {
+  transition: transform 0.2s ease;
+}
+
+a img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
