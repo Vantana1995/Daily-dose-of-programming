@@ -8,4 +8,4 @@ Here is a daily dose of proggraming
    5. [Day five](./day%205/) added [contact form](./day%205/index.html#L147) with input fields for name, email, and message. Style the form using [CSS](./day%205/style.css) to make it visually appealing.
    6. [Day six](./day%206/) [portfolio website](./day%206/index.html).Step-by-step i`ll add more and more info to this page till day i publicate this.
    7. [Day seven](./day%207/) added a simple [script](./day%207/script.js) which is writes to console message when [button](./day%206/index.html#L116) was clicked.
-   8. [Day eight](./day%208/) added [alert](./day%208/alert.js) message to a web page.
+   8. [Day eight](./day%208/) added [alert](./day%208/alert.js) message to a web page. Added [DOM interraction](./day%208/domScripts.js) for buttons, but without reversing.
