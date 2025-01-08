@@ -9,3 +9,4 @@ Here is a daily dose of proggraming
    6. [Day six](./day%206/) [portfolio website](./day%206/index.html).Step-by-step i`ll add more and more info to this page till day i publicate this.
    7. [Day seven](./day%207/) added a simple [script](./day%207/script.js) which is writes to console message when [button](./day%206/index.html#L116) was clicked.
    8. [Day eight](./day%208/) added [alert](./day%208/alert.js) message to a web page. Added [DOM interraction](./day%208/domScripts.js) for buttons, but without reversing.
+   9. [Day nine](./day%209/) Added a [form](./day%206/index.html#L108) for user input and implemented data handling using a [script](./day%209/formEventListener.js) that interacts with the DOM. The script processes the entered data and logs it to the console. The form has been updated to ensure that input fields reset after submission, while the entered data remains logged in the console until the page is manually refreshed.
