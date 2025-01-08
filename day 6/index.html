@@ -105,6 +105,29 @@
     <footer>
       <div class="footer">
         <p>Created by Mr.Picule</p>
+        <div class="form">
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              class="message"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <button class="contactButton" type="submit" id="sendForm">
+              Send
+            </button>
+          </form>
+        </div>
         <div class="Contacts">
           <h3>Contacts</h3>
           <button class="button">
@@ -134,5 +157,6 @@
     <script src="../day 7/script.js"></script>
     <script src="../day 8/alert.js"></script>
     <script src="../day 8/domScripts.js"></script>
+    <script src="../day 9/formEventListener.js"></script>
   </body>
 </html>
