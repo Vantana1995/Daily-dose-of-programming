@@ -97,3 +97,20 @@ textarea {
   resize: none;
   height: 150px;
 }
+#outputResult {
+  font-size: 1.5rem; 
+  color: #fff;
+  background-color: #e6a36d;
+  padding: 10px 20px; 
+  border-radius: 8px; 
+  text-align: center; 
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-family: "Courier New", Courier, monospace;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Плавные переходы */
+}
+
+#outputResult:hover {
+  transform: scale(1.05); 
+  background-color: #e92d14;
+}
