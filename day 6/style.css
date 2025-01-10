@@ -98,19 +98,47 @@ textarea {
   height: 150px;
 }
 #outputResult {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   color: #fff;
   background-color: #e6a36d;
-  padding: 10px 20px; 
-  border-radius: 8px; 
-  text-align: center; 
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
   margin-top: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: "Courier New", Courier, monospace;
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Плавные переходы */
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 #outputResult:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   background-color: #e92d14;
+}
+.operation {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Distance between button */
+  margin: 20px 0;
+}
+
+.operation-btn {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #ebac81;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animation */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.operation-btn:hover {
+  background-color: #e92d14;
+  transform: scale(1.1);
+}
+
+.operation-btn:active {
+  background-color: #e92d14;
+  transform: scale(0.95);
 }
