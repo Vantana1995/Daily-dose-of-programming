@@ -142,3 +142,7 @@ textarea {
   background-color: #e92d14;
   transform: scale(0.95);
 }
+#list-container {
+  color: #2b0c0c;
+  font-size: 30px;
+}
