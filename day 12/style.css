@@ -1,0 +1,31 @@
+.currency {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  border: 1px solid #b6a68d;
+  box-shadow: 2px 5px 5px 5px rgb(219, 172, 172);
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+#result-converter {
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgb(212, 170, 107);
+  border-radius: 30px;
+  background-color: #dac19a;
+  padding: 10px;
+  margin: auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#result-converter {
+  transform: scale(1.05);
+  background-color: #e99610;
+}
